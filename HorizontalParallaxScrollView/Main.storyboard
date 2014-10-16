@@ -9,23 +9,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HorizontalParallaxScrollView" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="BE6-RY-PeJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="NIN-Xa-VcR"/>
+                        <viewControllerLayoutGuide type="top" id="z2m-y4-3fZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="0Yj-tw-hRR"/>
                     </layoutGuides>
-                    <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="NXR-FI-2pR">
+                    <view key="view" contentMode="scaleToFill" id="Wha-w6-rvb">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                        <variation key="widthClass=compact" ambiguous="YES">
-                            <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
-                        </variation>
-                        <connections>
-                            <outlet property="delegate" destination="BYZ-38-t0r" id="tK4-Mb-NDF"/>
-                        </connections>
-                    </scrollView>
-                    <connections>
-                        <outlet property="scrollView" destination="NXR-FI-2pR" id="w51-IJ-kdV"/>
-                    </connections>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
